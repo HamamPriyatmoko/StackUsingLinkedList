@@ -19,10 +19,14 @@ namespace StackUsingLinkedList
     class Stacks
     {
         Node top;
+        public Stacks()
+        {
+            top = null;
+        }
 
     }
 
-        internal class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
