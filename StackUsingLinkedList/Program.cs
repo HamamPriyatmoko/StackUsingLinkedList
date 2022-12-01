@@ -16,8 +16,13 @@ namespace StackUsingLinkedList
             next = n;
         }
     }
+    class Stacks
+    {
+        Node top;
 
-    internal class Program
+    }
+
+        internal class Program
     {
         static void Main(string[] args)
         {
